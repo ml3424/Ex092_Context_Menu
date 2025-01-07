@@ -18,14 +18,13 @@ public class CalcActivity extends AppCompatActivity {
     TextView tV;
     ListView listV;
     Button back_btn;
-
     Intent g_intent;
 
+    String displayText;
     Double[] arr_items_sidra = new Double[20];
     double dorq_input, a1_input, sum;
     int n = 0;
     boolean isHashbonit;
-    String displayText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
